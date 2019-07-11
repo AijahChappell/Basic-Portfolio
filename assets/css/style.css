@@ -2,27 +2,80 @@
   box-sizing: border-box;
 }
 
+main {
+  clear: both;
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+  color: #777777;
+}
+
 header {
   float: left;
   background-color: #4aaaa5;
   color: #ffffff;
   height: 100%;
   width: 250px;
-  margin-left: 250px;
+  margin-left: 125px;
   border-bottom: none;
   margin-bottom: 0;
   padding-top: 20px;
+  text-align: center;
   vertical-align: middle;
 }
 
 nav {
+
   width: 250px;
   float: right;
   text-align: center;
   margin-right: 125px;
 }
 
-main {
-    width: 960px;
-    margin: 0 auto;
+
+
+
+.form, .top {
+  background-color: #ffffff;
+  float: left;
+  color: #777777;
+  border: 5px solid #dddddd;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float: left;
+  width: 33%;
+  padding: 15px;
+}
+
+li.links {
+  border-right: 5px solid #ddd;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #dddddd;
+
+}
+
+#me {
+  clear: both;
+  float: left;
+  width: 250px;
+  height: 250px;
+  }
+
+  .top {
+    height: auto;
+  }
