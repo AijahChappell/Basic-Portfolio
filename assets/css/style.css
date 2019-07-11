@@ -1,17 +1,21 @@
 .Header {
+  top: 0;
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
   border-color: #cccccc;
-  background: #ffffff;
+  background-color: #141111;
 
 }
 
-.name {
-    float: left;
-    width: 30%;
+.left,
+.middle,
+ .right {
+    top: 0;
+    float: right;
+    padding: 20px;
+    margin: 10px;
 }
-
 
 
 main {
