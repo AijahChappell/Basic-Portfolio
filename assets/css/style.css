@@ -1,22 +1,26 @@
-.Header {
-  top: 0;
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #333;
-  border-color: #cccccc;
-  background-color: #141111;
-
+* {
+  box-sizing: border-box;
 }
 
-.left,
-.middle,
- .right {
-    top: 0;
-    float: right;
-    padding: 20px;
-    margin: 10px;
+header {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  height: 100%;
+  width: 250px;
+  margin-left: 250px;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-top: 20px;
+  vertical-align: middle;
 }
 
+nav {
+  width: 250px;
+  float: right;
+  text-align: center;
+  margin-right: 125px;
+}
 
 main {
     width: 960px;
