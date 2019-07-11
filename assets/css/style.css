@@ -37,10 +37,17 @@ nav {
 
 
 .form, .top {
+  clear: both;
   background-color: #ffffff;
   float: left;
   color: #777777;
   border: 5px solid #dddddd;
+}
+
+main.contact {
+  clear: both;
+  height: 500px;
+  width: 100%;
 }
 
 ul {
@@ -55,27 +62,52 @@ li {
   padding: 15px;
 }
 
-li.links {
-  border-right: 5px solid #ddd;
-}
-
 input,
 textarea {
   width: 100%;
-  margin: 10px;
+  margin: 10px; 0; 10px; 0;
   padding: 10px;
   border-style: solid;
   border-color: #dddddd;
+  border-width: thin;
 
 }
 
 #me {
   clear: both;
   float: left;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
   }
 
-  .top {
-    height: auto;
+  .top, .form {
+    position: relative;
+    clear: both;
+    text-align: left;
+    width: 650px;
+    top: 30px;
+    margin-left: 125 px;
+    margin-bottom: 50px;
+  }
+
+  .pics {
+    display: inline-block;
+    margin: 15px;
+  }
+
+  .portfolios {
+    float: left;
+    position: relative;
+    top: -10px;
+    width: 100%;
+  }
+
+  footer {
+    clear: both;
+    vertical-align: middle;
+    background-color: #666666;
+    width: 100%;
+    text-align: center;
+    color: #777777;
   }
