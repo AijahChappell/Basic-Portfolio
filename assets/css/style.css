@@ -1,0 +1,20 @@
+.Header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  border-color: #cccccc;
+  background: #ffffff;
+
+}
+
+.name {
+    float: left;
+    width: 30%;
+}
+
+
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
