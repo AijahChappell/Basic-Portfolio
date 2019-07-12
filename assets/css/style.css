@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  margin 0 auto;
+  background-image: url("../images/email-pattern.png");
+}
+
 main {
   clear: both;
   width: 960px;
@@ -9,6 +15,7 @@ main {
   position: relative;
   text-align: left;
   color: #777777;
+  
 }
 
 header {
@@ -25,6 +32,11 @@ header {
   vertical-align: middle;
 }
 
+.Header {
+  position: relative;
+  background: #4aaaa5;
+}
+
 nav {
 
   width: 250px;
@@ -36,7 +48,7 @@ nav {
 
 
 
-.form, .top {
+.form, .top, .topPortfolio {
   clear: both;
   background-color: #ffffff;
   float: left;
@@ -81,7 +93,7 @@ textarea {
   margin: 10px;
   }
 
-  .top, .form {
+  .top, .form, .topPortfolio {
     position: relative;
     clear: both;
     text-align: left;
@@ -93,7 +105,9 @@ textarea {
 
   .pics {
     display: inline-block;
-    margin: 15px;
+    width: 250px;
+    height: 100px;
+    margin: 30px;
   }
 
   .portfolios {
@@ -103,11 +117,27 @@ textarea {
     width: 100%;
   }
 
+  .textTitle {
+    float: left;
+    position: relative;
+    top: -50px;
+    width: 100%;
+    height: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .topPortfolio {
+    padding: 15px;
+    height: 500px;
+  }
+
   footer {
     clear: both;
     vertical-align: middle;
     background-color: #666666;
     width: 100%;
     text-align: center;
-    color: #777777;
+    color: #dedae7;
   }
